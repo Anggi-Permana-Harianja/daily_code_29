@@ -12,14 +12,19 @@ The basic idea is to represent repeated successive characters as a single count 
 
 For example, the string 
 
+
 ```python
 AAAABBBCCDAA 
+AABBAABBAABB
+aabbccdddcbbbbaabbc
 ```
     
 would be encoded as 
     
  ```ruby
  4A3B2C1D2A
+ 2A2B2A2B2A2B
+ 2a2b2c3d1c4b2a2b1c
  ```
 
 Implement run-length encoding and decoding. 
